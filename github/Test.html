@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name's Cool Links</title>
+    <style>
+        /* Styling for the entire body of the page */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #cdbabc7a;
+        }
+
+        /* Styling for the name header */
+        .name-header {
+            font-size: 4em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Styling for the container of the boxes */
+        .box-container {
+            display: flex;
+            gap: 100px;
+        }
+
+        /* Styling for each individual box */
+        .box {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000000cf;
+            color: white;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        /* Hover effect for the boxes */
+        .box:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="name-header"></div>
+    <div class="box-container">
+        <!-- Box 1 with inline styling for text customization -->
+        <a href="Heim.html" class="box">
+            <span class="box-text" style="font-size: 40px; color: cyan;">Heim</span>
+        </a>
+
+        <!-- Box 2 with different text customization -->
+        <a href="Ferilskrá.html" class="box">
+            <span class="box-text" style="font-size: 40px; color: cyan;">Ferilskrá</span>
+        </a>
+
+        <!-- Box 3 with another style -->
+        <a href="VÉL608G.html" class="box">
+            <span class="box-text" style="font-size: 40px; color:  cyan;">VÉL608G</span>
+        </a>
+
+        <!-- Box 4 with its own unique style -->
+        <a href="FutureProjects.html" class="box">
+            <span class="box-text" style="font-size: 40px; color:  cyan;">Future Projects</span>
+        </a>
+    </div>
+</body>
+

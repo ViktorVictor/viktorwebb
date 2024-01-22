@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VÉL608G</title>
+    <style>
+        /* Styling for the entire body of the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 300px; /* Adjusted padding for better layout */
+            background-color: #f0f0f0;
+        }
+
+        /* Styling for the box container */
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px; /* Adjusted gap for better layout */
+            justify-content: center;
+        }
+
+        /* Styling for each individual box */
+        .box {
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+        }
+
+        /* Styling for the image inside the box */
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        /* Styling for the text overlay */
+        .box-text {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0); /* Semi-transparent background */
+            color: #fff;
+            width: 100%;
+            padding: 16px;
+            text-align: center;
+        }
+
+        /* Hover effect for the image */
+        .box:hover img {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="box-container">
+        <!-- Box 1 with placeholder image and text -->
+<!-- Box 1 with placeholder image and text -->
+<div class="box">
+    <a href="verkefni1.html">
+        <img src="ronniecoleman.jpeg" alt="Image 1">
+        <div class="box-text">Verkefni 1</div>
+    </a>
+</div>
+
+
+        <!-- Box 2 with placeholder image and text -->
+        <div class="box">
+            <a href="verkefni2.html">
+            <img src="ronnie2.jpeg" alt="Image 2">
+            <div class="box-text">Verkefni 2</div>
+        </div>
+
+        <!-- Box 3 with placeholder image and text -->
+        <div class="box">
+            <a href="verkefni3.html">
+            <img src="ronnie3.webp" alt="Image 3">
+            <div class="box-text">Verkefni 3</div>
+        </div>
+
+        <!-- Box 4 with placeholder image and text -->
+        <div class="box">
+            <a href="verkefni4.html">
+            <img src="ronnie4.jpeg" alt="Image 4">
+            <div class="box-text">Verkefni 4</div>
+        </div>
+    </div>
+</body>
+</html>
