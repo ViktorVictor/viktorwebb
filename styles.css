@@ -1,0 +1,89 @@
+main {
+    max-width: 2560px;
+    width: 90%;
+}
+
+
+
+
+/* Apply the animation to the slide-right class */
+.slide-right {
+    animation: slide 1s ease-in-out; /* Adjust the duration (1s) as needed */
+}
+
+/* Apply the margin-left to the move-right class */
+.move-right {
+    margin-left: 20px; /* Adjust the value (e.g., 20px) to move it as much as you want */
+}
+
+/* Style for the         Viktor Nói Kristinsson        title */
+.portfolio-title {
+    text-align: left; /* Align the text to the right */
+    margin-right: 100px; /* Add some right margin for positioning */
+}
+
+
+
+/* Rockstar CSS for Viktor's Portfolio */
+
+body {
+    display: flex;
+    flex-direction: column; /* Vertical alignment for a streamlined look */
+    align-items: center; /* Centering the content */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Modern and clean font */
+}
+
+.nav-links {
+    margin-top: 20px; /* Giving some top space for a relaxed layout */
+}
+
+.nav-links a {
+    display: block; /* Each link gets its own line */
+    margin: 10px 0; /* Adequate space between links for easy clicking */
+    color: #333; /* Stylish yet readable color */
+    text-decoration: none; /* No underlines for a clean look */
+    font-size: 18px; /* Large enough for easy reading */
+}
+
+.nav-links a:hover {
+    color: #007bff; /* A cool blue for hover effect, because you're cool like that */
+}
+
+/* Style for the navigation links container */
+.nav-links {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center align the links */
+    margin-top: 20px; /* Space above the links */
+    width: 100%; /* Full width of the container */
+}
+
+/* Style for individual links */
+.nav-links a {
+    margin-bottom: 15px; /* Space below each link */
+    text-decoration: none; /* No underlines */
+    color: #333; /* Text color */
+    font-size: 20px; /* Size of the text */
+    font-weight: bold; /* Bold text */
+}
+
+
+
+/* Style for the clickable link Ferilskrá */
+
+a.hover-color {
+    text-decoration: none; /* Remove underline by default */
+    color: #000000; /* Default text color */
+    font-size: 22px; /* Increase the font size to make it bigger */
+    position: absolute; /* Position the text absolutely */
+    top: 0; /* Align to the top of the parent container */
+    left: 10px; /* Adjust the left value to control horizontal positioning */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Style for hover effect */
+a.hover-color:hover {
+    color: #ff0000; /* Text color changes to red on hover */
+}
