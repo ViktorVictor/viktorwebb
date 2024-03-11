@@ -17,15 +17,86 @@
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        img {
+            max-width: 100%; /* This ensures the image is never wider than its container */
+            height: auto; /* This makes sure the image scales proportionally */
+        }
     </style>
 </head>
 <body>
     <div class="content">
-        <h1>Welcome to Verkefni 2</h1>
+        <h1>Verkefni 2 - Geislaskeri</h1>
+        <h2>Undirbúningur</h2>
         <p>
-           
+            Í einstaklingshlutanum á að hanna parametrískt, gerneglt (pressfit) módel af byggingar einingum. Módelið þarf að vera skalanlegt þannig hægt sé að stilla kerf og efnisþykkt, ásamt stærðum á flötum, með því að vinna með parametrískar breytur. Hægt er að velja á milli þriggja gerða af efni.
+        
         </p>
-        <!-- Add more content as needed -->
+    </p> Í hóphlutanum á að velja geislaskera og ákvarða með prófunum kerf fyrir þann skera.
+    Skjalfesta á sameiginlegri vefsíðu sem allir í hópnum geta hlekkjað á. Ég vann verkefnið með Kára Genevois.
+    </p>
+
+    <h2>Kerf prófun</h2>
+
+    <p>Geislinn í geislaskeranum tekur brennur hluta efnisins í burt sem mikilvægt er að gera ráð fyrir í teikningunum. Þetta kallast kerf en sú vegalengd er mismikil eftir hverjum geilsaskera. Hópurinn minn ákvað að stóra geilsaskerann,
+         eða þann sem er innst í FabLab. Hér má sjá hvernig farið var að því en í lokinn mældist kerf-ið upp á 0,118 mm.
+        </p>
+
+        <h2>Hugmyndarvinna</h2>
+
+        <p>Mjög einfalt, mér vantaði box þannig ég ákvað að gera box.</p>
+        <p>Hér eru myndir sem gáfu mér innblástur. Ákvað að gera press fit box sem er bara með festingar á botninum.</p>
+        <img src="innblastur.png" alt="innblastur">
+
+        <h2>Vinna í Fusion 360</h2>
+
+        <p>
+            Eftir að hafa horft á afar góð myndbönd um hvernig best væri að vinna í Fusion 360 og um hvernig best væri að teikna upp hugmyndina með hjálp "parameters".
+            Það er gert til þess að tryggja að hægt sé að breyta ákveðnum stærðum, eins og lengd brettis, og að teikningin aðlagi sig svo að þessum breytingum.
+        </p>
+        <img src="parameters.png" alt="parameters">
+        <p>Hér er kassinn í Fusion</p>
+        <img src="3d_box.png" alt="box_in_fusion">
+        <p>
+            Og hér eru allir hlutirnir á sama plani sem er final stage-ið í fusion svo ég get hent því í Inkscape 
+            til þess að cutta það í geislaskeranum.
+        </p>
+        <img src="over_view_box.png" alt="box_in_fusion">
+        <p>Kerf var mælt 0.118mm</p>
+        <img src="kerf_2.png" alt="kerf">
+
+        <h2>Inkscape</h2>
+
+        <p>
+            Næsta skref var að flytja skrána í Inkscape áður en hún var klippt. 
+            DFX skráin var opnuð í Inkscape og stillt á 500mmx500mm í dimensions sem var efnis limit-ið og línubreiddina á 0,118mm. 
+            Síðan vistaði ég skrána sem PDF-skjal á USB-lykil og færði í tölvuna með laserskera.
+        </p>
+        <img src="inkscape.png" alt="inkscape">
+
+        <h2>Laserskurður</h2>
+
+        <p>
+            Skráin sem var tengd við laserskerann.
+            Ég stillti hraðann á 20%, afl á 100%, tíðni á 10% og þykkt á 3mm.
+        </p>
+        <h2>Útkoman úr verkefni 2</h2>
+        <img src="kassi.jpg" alt="utkoma_a_verkefni_2">
+
+        <h2>Vinyl skurður</h2>
+
+        <p>
+            Fyrir hinn hluta verkefnisins ákvað ég að búa til Rammstein stimpil.
+            Ég downloadaði logo-ið. 120mmx120mm voru dimension-in. Þetta ferli var gert í tölvunni sem var tengd við cutter-ann.
+        </p>
+        <p>
+            Ákvað að gera 4 tengipunkta á monitor hátalaranum svo það heldur hornréttleika og samsíða
+        </p>
+        <img src="stamp_begin.jpg" alt="stimpill">
+        <img src="stamp_mid.jpg" alt="stimpill">
+        <p>Útkoman er fín, en gat verið betri. Teipið sem var notað vildi ekki sleppa á límmiðanum þannig það leiddi til smá skemmtilegar skekkjur á logo-inu. </p>
+        <img src="stamp_finish.jpg" alt="stimpill">
+
+
     </div>
 </body>
 </html>
